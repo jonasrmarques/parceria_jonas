@@ -1,7 +1,7 @@
 import requests
 import time
 
-BASE_URL = 'http://localhost:8000'
+BASE_URL = 'https://futuras-cientistas-dfdb879aee4c.herokuapp.com'
 TOKEN = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzUxNDE2NzM5LCJpYXQiOjE3NTE0MDk1MzksImp0aSI6IjIzOWUzZWZmNDM0ODQxZjk4YTcyNDgyMzZhZTdmZmFkIiwidXNlcl9pZCI6ImZhNjc2Yzc2LTEzZTQtNGMyZi05ZjFmLWI2NjM5MjUwYjI0ZiJ9.K-87FwaN9OehoUksSD4Qrns3U2KI_UB-GGygMp36rng'
 HEADERS = {
     'Authorization': f'Bearer {TOKEN}',
